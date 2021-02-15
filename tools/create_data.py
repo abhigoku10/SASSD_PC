@@ -274,6 +274,6 @@ if __name__ == '__main__':
     create_kitti_info_file('/home/billyhe/data/KITTI')
     create_reduced_point_cloud('/home/billyhe/data/KITTI')
 
-    create_groundtruth_database(data_path='/home/billyhe/data/KITTI', \
-                                info_path='/home/billyhe/data/KITTI/kitti_infos_trainval.pkl', \
-                                db_info_save_path='/home/billyhe/data/KITTI/kitti_dbinfos_trainval.pkl')
+    create_groundtruth_database(data_path='/content/PointCloudData/Kitti_data/sample/', \
+                                info_path='/content/PointCloudData/Kitti_data/sample//kitti_infos_trainval.pkl', \
+                                db_info_save_path='/content/PointCloudData/Kitti_data/sample//kitti_dbinfos_trainval.pkl')
